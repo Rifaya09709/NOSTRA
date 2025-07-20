@@ -1,4 +1,15 @@
-//offe-bar
+
+
+
+
+  function showBodyAfterDelay() {
+    setTimeout(() => {
+      document.body.style.display = "block";
+    }, 3000); // 3000 milliseconds = 3 seconds
+  }
+
+
+  //offe-bar
 
 var offerbar = document.getElementById("offer-bar")
 var closebtn = document.getElementById("close-btn")

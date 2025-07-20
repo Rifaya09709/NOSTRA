@@ -415,6 +415,32 @@ body{
       color: white;
       border-radius: 10px;
     }
+     .limited{
+      text-align: center;
+      margin-top: 80px;
+    }
+    .limited h1{
+      font-size: 50px;
+      font-weight: bolder;
+    }
+    .limited p{
+      font-size: 30px;
+    }
+    .limited input{
+      width: 80%;
+      border: solid black 2px;
+      margin-top: 10px;
+      padding: 6px;
+    }
+    .limited button{
+      margin-top: 20px;
+      background-color: rgb(49, 52, 52);
+      padding: 5px;
+      font-size: 30px;
+      font-weight: bolder;
+      color: white;
+      border-radius: 10px;
+    }
     .footer{
       margin-top: 50px;
       background-color: rgb(49, 52, 52);
@@ -971,20 +997,7 @@ body{
   span {
     font-size: 6px;
   }
-   /* Center search bar and adjust padding */
-  /*.search {
-        width: 95%;
-      }
-
-      .search input {
-        font-size: 14px;
-      }
-
-      .search i {
-        font-size: 16px;
-      }
-    
-
+  
   /* Reduce image and align center */
  .wear {
     padding-left: 0;
@@ -999,48 +1012,22 @@ body{
     margin: 10px;
     padding: 0;
   }
-
-  /* Product container on phone */
-  /*.product-container {
-   display: flex;
-   flex-wrap: wrap;
-  }
-
-  .product-container div {
-    width: 80%;
-    margin: 10px;
-    
-    
-  }
-
-  div > h2 {
-    font-size: 10px;
-  }
-
-  div > p {
-    font-size: 6px;
-  } */
-
-
-
-
-    
-      .search {
+ .search {
         width: 95%;
         padding: 0;
       }
 
-      .search input {
+ .search input {
         font-size: 14px;
         
        
       }
 
-      .search i {
+  .search i {
         font-size: 16px;
       }
 
-      .product-container {
+   .product-container {
         grid-template-columns: 1fr;
       }
 
@@ -1048,20 +1035,7 @@ body{
         width: 100%;
         height: auto;
       }
-    
-    
-  
-  
-
-
-
- 
-  
- 
- 
- 
- 
-   .product-container {
+  .product-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     gap: 15px;
@@ -1091,19 +1065,9 @@ body{
     margin: 4px 0;
   }
   .limit{
-    margin-top: 200px;
+    margin-top: 90px;
   }
 
-
-
-
-
-  
-
-
-
-
- /*contact Form ===== */
   .contact-form {
     width: 90vw;
     padding: 5vw;
@@ -1127,8 +1091,7 @@ body{
     font-size: 16px;
     padding: 10px 20px;
   }
-
-  /* ===== DOWN CLASS (NEW) ===== */
+/* ===== DOWN CLASS (NEW) ===== */
   .down {
     display: block;
      font-size: 16px;
@@ -1145,5 +1108,24 @@ body{
   font-size: 18px;
   padding-left: 50px;
 }
+.limited{
+  margin-top: 240px;
+}
+ .limited h1 {
+    font-size: 18px;
+  }
+
+  .limited p {
+    font-size: 12px;
+  }
+
+  .limited input {
+    width: 90%;
+  }
+
+  .limited button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
   
 }
