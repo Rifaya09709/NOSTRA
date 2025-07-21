@@ -157,7 +157,9 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    
   }
+ 
   .head{
     font-size: 30px;
     font-weight: bolder;
@@ -570,7 +572,7 @@ body{
  /* ===== SEARCH BAR ===== */
     .search {
       width: 100%;
-      max-width: 500px;
+    
       display: flex;
       align-items: center;
       border: 1px solid black;
@@ -578,6 +580,9 @@ body{
       padding: 12px;
       transition: all 0.3s ease;
       margin: 20px auto;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      border: none;
+
     }
 
    
@@ -691,36 +696,7 @@ body{
     top: 0px;
     right: 0px
  }
- /* ===== SEARCH BAR ===== */
-    .search {
-      width: 100%;
-      max-width: 500px;
-      display: flex;
-      align-items: center;
-      border: 1px solid black;
-      border-radius: 10px;
-      padding: 12px;
-      transition: all 0.3s ease;
-      margin: 20px auto;
-    }
-
-    .search.shrink {
-      padding: 6px;
-      border-radius: 6px;
-    }
-
-    .search input {
-      width: 100%;
-      font-size: 16px;
-      border: none;
-      outline: none;
-    }
-
-    .search i {
-      font-size: 18px;
-      color: #333;
-      margin-left: 10px;
-    }
+ 
 
     /* ===== PRODUCT GRID ===== */
     .product-container {
@@ -768,7 +744,11 @@ body{
     gap: 20px;
     padding: 10px;
     -webkit-overflow-scrolling: touch;
+    
   }
+
+  
+  
   .head{
     font-size: 18px;
   }
@@ -1013,7 +993,7 @@ body{
     padding: 0;
   }
  .search {
-        width: 95%;
+       width: 95%;
         padding: 0;
       }
 
